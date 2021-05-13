@@ -1,0 +1,19 @@
+body{
+    background-color: grey;
+}
+/* ------------------TITULO------------------ */
+.titulo{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo>h1{
+
+}
+.titulo>h2{
+
+}
+/* ------------------------------------------ */
