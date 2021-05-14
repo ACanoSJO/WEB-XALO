@@ -3,6 +3,7 @@
 }
 body{
     background-color: rgb(190, 190, 190);
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* ------------------TITULO------------------ */
 .titulo{
@@ -11,13 +12,13 @@ body{
     background-color: rgb(30, 112, 235);
     padding-top: 2%;
     padding-bottom: 2%;
-    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: rgb(8, 89, 211) solid 8px;
 }
 /* ------------------NAVBAR------------------- */
 .navbar{
     display: flex;
-    background-color: rgb(254, 255, 200);
-    width: 10%;
+    background-color: rgb(225, 241, 255);
+    width: 154px;
     height: 100%;
     align-items: center;
     flex-direction: column;
