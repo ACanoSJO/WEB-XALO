@@ -18,18 +18,19 @@ body{
     border-bottom: rgb(8, 89, 211) solid 1vh;
 }
 /* ------------------NAVBAR------------------- */
-.navbar{
+p{
     display: flex;
-    background-color: rgb(225, 241, 255);
-    width: 13vw;
-    height: 84vh;
     align-items: center;
     flex-direction: column;
-}
-
-.navbar > p{
     padding: 8px;
+}
+.navbar{
+    height: 84vh;
+    width: 13vw;
+    background-color: rgb(225, 241, 255);
+
 }
 p:hover{
     background-color: coral;
+    color: white;
 }
