@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     background-color: rgb(190, 190, 190);
@@ -17,20 +19,46 @@ body{
     background-color: rgb(30, 112, 235);
     border-bottom: rgb(8, 89, 211) solid 1vh;
 }
+div.titulo > h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.titulo > h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* ------------------NAVBAR------------------- */
-p{
+div.navbar > a{
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 8px;
+    text-decoration: none;
+    color: black;
 }
 .navbar{
     height: 84vh;
     width: 13vw;
     background-color: rgb(225, 241, 255);
-
 }
-p:hover{
+a:hover{
     background-color: coral;
     color: white;
+}
+/* -------------------CONTENIDO ---------------- */
+.contenido{
+    display: flex;
+}
+/* --------------------TEXTO-------------------- */
+.texto{
+    width: 87vw;
+    height: 84vh;
+    background-color: rgb(255, 253, 241);
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.texto > *{
+    padding: 2vw;
 }
