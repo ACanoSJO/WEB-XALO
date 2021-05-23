@@ -55,6 +55,10 @@ a:hover{
     background-color: coral;
     color: white;
 }
+a{
+    margin-bottom: 5vh;
+    align-self: center;
+}
 /* -------------------CONTENIDO ---------------- */
 .contenido{
     display: flex;
