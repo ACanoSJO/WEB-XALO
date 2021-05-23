@@ -9,6 +9,7 @@ body{
     background-image: url(img/mar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 /* ------------------TITULO------------------ */
 .titulo{
@@ -45,6 +46,9 @@ div.navbar > a{
     height: 84vh;
     width: 13vw;
     background-color: rgb(225, 241, 255);
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 a:hover{
     background-color: coral;
@@ -62,7 +66,41 @@ a:hover{
     background-color: rgb(255, 253, 241);
     margin-left: 5vw;
     margin-right: 5vw;
+    flex-direction: column;
 }
 .texto > *{
     padding: 2vw;
 }
+/* ---------------------TABLAS------------------ */
+div#Tablas > h2{
+    margin-bottom: 16px;
+    margin-right: 35%;
+    margin-left: 35%;
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+div#Tabla1 > h3{
+    margin-bottom: 16px;
+    margin-right: 40%;
+    margin-left: 40%;
+    text-align: center;
+    color: white;
+    background-color: rgb(23, 58, 255);
+}
+div#Tabla2 > h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 40%;
+    margin-left: 40%;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 23, 23);
+}
+table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid rgb(95, 95, 95);
+}   
