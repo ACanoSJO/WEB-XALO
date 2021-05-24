@@ -43,6 +43,7 @@ div.navbar > a{
     color: black;
 }
 .navbar{
+    padding-top: 10vh;
     height: 100vh;
     width: 13vw;
     background-color: rgb(225, 241, 255);
