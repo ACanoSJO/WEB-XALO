@@ -41,6 +41,8 @@ div.navbar > a{
     padding: 8px;
     text-decoration: none;
     color: black;
+    margin-bottom: 5vh;
+    align-self: center;
 }
 .navbar{
     padding-top: 10vh;
@@ -56,10 +58,7 @@ a:hover{
     background-color: coral;
     color: white;
 }
-a{
-    margin-bottom: 5vh;
-    align-self: center;
-}
+
 /* -------------------CONTENIDO ---------------- */
 .contenido{
     display: flex;
@@ -73,13 +72,21 @@ a{
     margin-left: 5vw;
     margin-right: 5vw;
     flex-direction: column;
-    opacity: 0.9;
     /* overflow-y: scroll; */
     /* overflow-x: hidden; */
 }
 .texto > *{
     padding: 2vw;
 }
+/* ------------------PORTADA------------------- */
+div#portada{
+    text-align: center;
+    padding: 4px;
+}
+div#portada > h1{
+    color: red;
+}
+
 /* ---------------------TABLAS------------------ */
 div#Tablas > h2{
     margin-bottom: 16px;
@@ -120,3 +127,4 @@ table{
     width: 100%;
     text-align: left;
 }
+/* --------------------INDEX------------------- */
