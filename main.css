@@ -86,7 +86,13 @@ div#portada{
 div#portada > h1{
     color: red;
 }
-
+img{
+    height: 25vh;
+    margin: 5vh;
+}
+.equipo{
+    margin: 3vh;
+}
 /* ---------------------TABLAS------------------ */
 div#Tablas > h2{
     margin-bottom: 16px;
@@ -94,7 +100,7 @@ div#Tablas > h2{
     margin-left: 35%;
     text-align: center;
     color: white;
-    background-color: green;
+    background-color: rgb(39, 60, 92);
 }
 div#Tabla1 > h3{
     margin-bottom: 16px;
@@ -102,8 +108,7 @@ div#Tabla1 > h3{
     margin-left: 40%;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgb(23, 58, 255);
-    border: 2px solid black;
+    background-color: rgb(39, 60, 92);
     
 }
 td, th {
@@ -118,8 +123,7 @@ div#Tabla2 > h3{
     margin-left: 40%;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 23, 23);
-    border: 2px solid black;
+    background-color: rgb(39, 60, 92);
 }
 table{
     display: flex;
@@ -128,3 +132,19 @@ table{
     text-align: left;
 }
 /* --------------------INDEX------------------- */
+div#index > h3{
+    color: rgb(104, 104, 104);
+    font-weight: lighter;
+    border-top: ;
+}
+/* -------------------OBJETIVO----------------- */
+div#objetivo{
+    background-color: rgb(39, 60, 92);
+}
+div#objetivo > p{
+    margin-right: 50%;
+    color: white;
+}
+div#objetivo > h2{
+    color: white;
+}
