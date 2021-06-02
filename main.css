@@ -85,10 +85,11 @@ div#portada{
 }
 div#portada > h1{
     color: red;
+    margin: 5vh;
 }
 img{
     height: 25vh;
-    margin: 5vh;
+    margin-bottom: 5vh;
 }
 .equipo{
     margin: 3vh;
@@ -102,7 +103,7 @@ div#Tablas > h2{
     color: white;
     background-color: rgb(39, 60, 92);
 }
-div#Tabla1 > h3{
+div#tabla1 > h3{
     margin-bottom: 16px;
     margin-right: 40%;
     margin-left: 40%;
@@ -116,7 +117,16 @@ td, th {
     text-align: left;
     padding: 8px;
 }
-div#Tabla2 > h3{
+div#tabla2 > h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 40%;
+    margin-left: 40%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 60, 92);
+}
+div#tabla3 > h3{
     margin-top: 16px;
     margin-bottom: 16px;
     margin-right: 40%;
@@ -131,11 +141,16 @@ table{
     width: 100%;
     text-align: left;
 }
+h3#total-presupuesto{
+    margin: 5vh;
+}
 /* --------------------INDEX------------------- */
 div#index > h3{
     color: rgb(104, 104, 104);
     font-weight: lighter;
-    border-top: ;
+}
+div#index > h2{
+    border-top:grey dashed;
 }
 /* -------------------OBJETIVO----------------- */
 div#objetivo{
