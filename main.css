@@ -68,7 +68,7 @@ a:hover{
     display: flex;
     width: 87vw;
     /* height: 84vh; */
-    background-color: rgb(255, 253, 241);
+    background-color: white;
     margin-left: 5vw;
     margin-right: 5vw;
     flex-direction: column;
