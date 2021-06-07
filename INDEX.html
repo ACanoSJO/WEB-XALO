@@ -10,19 +10,19 @@
 </head>
 <body>
     <div>
-        <div class="titulo">
+        <div id="portada2" class="titulo">
             <h1>Proyecto XALO-Red Local</h1>
             <h2>Alex Pizarro | Alejandro Cano | Rosario Pozo | Alex Suarez</h2>
         </div>
     </div>
     <div class="contenido">
         <div class="navbar">
-            <a href="#">Portada</a>
+            <a href="#portada2">Portada</a>
             <a href="#index">Index</a>
             <a href="#objetivo">Objetivo</a>
             <a href="#tablas">Presupuesto</a>
-            <a href="#">Simulación</a>
-            <a href="#">Montaje</a>
+            <a href="#introSimulacion">Simulación</a>
+            <a href="#intro-montaje">Montaje</a>
         </div>
         <div class="texto">
             <div id = "portada">
@@ -60,7 +60,7 @@
             <div id = "objetivo">
                 <h2>Objetivo</h2>
                 <br>
-                <p>El objetivo de este proyecto es instalar y configurar una red local documentando el proceso y obstáculos que nos hemos encontrado durante la instalación/configuración. También ha de incluir el proceso una hoja de cálculo con el presupuesto de los materiales usados. Y por último también mostraremos una recreación del proyecto en una simulación usando Packet tracer.</p>
+                <p>El objetivo de este proyecto es instalar y configurar una red local documentando el proceso y obstáculos que nos hemos encontrado durante la instalación/configuración. También ha de incluir el proceso un esquema con el presupuesto de los materiales usados. Y por último también mostraremos una recreación(imagen) del proyecto en una simulación usando Packet tracer.</p>
             </div>
             <div id="tablas">
                 <h2>Lista de presupuesto</h2>
@@ -159,28 +159,28 @@
                         <tr>
                             <td>Alejandro Cano</td>
                             <td>4</td>
-                            <td>80</td>
+                            <td>80€</td>
                         </tr>
                         <tr>
                             <td>Rosario Pozo</td>
                             <td>3</td>
-                            <td>60</td>
+                            <td>60€</td>
                         </tr>
                         <tr>
                             <td>Alejandro Suarez</td>
                             <td>3</td>
-                            <td>60</td>
+                            <td>60€</td>
                         </tr>
                         <tr>
                             <td>Alex Pizarro</td>
                             <td>4</td>
-                            <td>80</td>
+                            <td>80€</td>
                         </tr>
                     </table>
                 </div>
                 <h3 id="total-presupuesto">TOTAL = 358,63€ | 21% de IVA incluido</h3>
             </div>
-            <div class = "intro-simulación">
+            <div id ="introSimulacion">
                 <h2>Simulación red local</h2>
                 <br>
                 <p>En este apartado mostraremos unas capturas de una sencilla recreación de TODA la red de la clase. Hemos remplazado las rosetas por ordenadores ya que no se encuenrtra en paket tracer, les hemos puesto una IP a cada uno. Cada recuadro del simulador representa una subred, las subredes vienen de la siquiente red : 192.168.x.x. En el caso de la que se encuentra arriba a la derecha (la nuestra) es la subred 192.168.5.x. No podemos poner pruebas de carpetas compartidas (en este simulador no se puede)</p>
@@ -188,38 +188,45 @@
             <div id = "simulación">
                 <img src="img/simulacion1.jpg" alt="kk">
             </div>
-            <div class = "intro-montaje">
+            <div id = "intro-montaje">
                 <h2>Diario de montaje</h2>
                 <br>
                 <p>En este apartado os mostraremos nuestro progreso a lo largo de los dias en los que le hemos dedicado tiempo a la web junto a unas imagenes. Han habido casos en los que no hemos hecho fotos de algunos dias porque haciamos lo mismo que el anterior o porque no no salia no era largo de hacer o teniamos que repetirlo.</p>
             </div>
-            <d id = "montaje">
+            <div id = "montaje">
                 <h3>04/05/2021</h3>
                 <p>Hemos comenzado el proyecto con una explicación del trabajo y colocado las canaletas, hemos pasado el cable UTP he identificado los extremos  y hemos preparado los sitios donde irán las rosetas (una cada 50 cm).</p>
-                 <br>
+                <img src="img/dia1.png" id="fotoMontaje">
                 <h3>05/05/2021</h3>
                 <p>Hoy hemos crimpar los extremos de cable hacia el conector hembra en los cinco cables que preparamos en la anterior sesión que nos corresponden. Una vez hemos colocado los puertos en su sitio, hemos tapado las canaletas para que no se vean los cables. De esa forma nos organizamos mejor y también es visualmente más cómodo de ver. Y por ultimo, tambien hemos colocado los cables y el enlace del otro grupo en el patch panel</p>
-                 <br>
+                <img src="img/dia2.png" id="fotoMontaje">
                 <h3>06/05/2021</h3>
                 <p>Hoy hemos comprobado los conectores de nuestra parte de la instalación y hemos descubierto que había fallos de funcionamiento en los cables 1, 2, 3, 5. Hemos logrado reparar el cable 2.</p>
-                <!-- sin imagenes de este dia -->
-                 <br>
+                <img src="img/dia3.png" id="fotoMontaje">
                 <h3>10/05/2021</h3>
-                <p>Hoy hemos retocado en detalle la hoja de cálculo en detalle (todavía esta a medias)</p>
-                <!-- sin imagen de este día -->
-                 <br>
+                <p>Hoy hemos retocado en detalle la hoja de cálculo en detalle.</p>
+                <img src="img/dia4.png" id="fotoMontaje">
                 <h3>13/05/2021</h3>
                 <p>Hoy hemos reparado los conectores que nos faltaban por reparar el último día,  personalmente este paso nos ha parecido el más complejo del montaje ya que hay que ser muy delicado</p>
-                 <br>
+                <img src="img/dia5.png" id="fotoMontaje">
                 <h3>20/05/2021</h3>
                 <p>Finalmente terminamos el último cable. Seguidamente, conectamos un switch e intentamos hacer un ping entre dos ordenadores conectados a la red. También crearemos una máquina virtual (windows7) para acceder al switch y cambiar manualmente sus ips.</p>
-                 <br>
+                <img src="img/dia6.1.png" id="fotoMontaje">
+                <img src="img/dia6.2.png" id="fotoMontaje">
                 <h3>27/05/2021</h3>
                 <p>Estamos comprobando que las conexiones funcionan correctamente haciendo pings. Hemos usado las IPs que nos proporciona el documento de enunciado (En nuestro caso es 192.168.5.X). Tambien hemos intentado acceder a la impresora pero por ahora no han habido avances.</p>
-                 <br>
+                <img src="img/dia7.1.png" id="fotoMontaje">
+                <img src="img/dia7.2.png" id="fotoMontaje">
                 <h3>03/06/2021</h3>
                 <p>Vamos a intentar conectar una impresora a la red que está conectada a un portátil de la red, entonces desde uno ajeno a la impresora conectado a la red y que pueda imprimir. Por último también hemos conseguido compartir una carpeta con un documento txt dentro.</p>
-
+                <img src="img/dia8.png" id="fotoMontaje">
+            </div>
+            <div id = "firma">
+                <h4>Gracias por dedicarle tiepo a evaluar nuestro trabajo</h4>
+                <p>acanov62@alumnes.santjosepobrer</p>
+                <p>apizarror19@alumnes.santjosepobrer.es</p>
+                <p>asuarezp63@alumnes.santjosepobrer.es</p>
+                <p>rpozo53@alumnes.santjosepobrer.es</p>
             </div>
         </div>
     </div>
