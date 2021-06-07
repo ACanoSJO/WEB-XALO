@@ -87,7 +87,7 @@ div#portada > h1{
     color: red;
     margin: 5vh;
 }
-img{
+div#portada img{
     height: 25vh;
     margin-bottom: 5vh;
 }
@@ -155,11 +155,31 @@ div#index > h2{
 /* -------------------OBJETIVO----------------- */
 div#objetivo{
     background-color: rgb(39, 60, 92);
+    color: white;
 }
 div#objetivo > p{
     margin-right: 50%;
+}
+/* ---------------SIMULACIÓN------------------- */
+div.intro-simulación{
+    background-color: rgb(39, 60, 92);
     color: white;
 }
-div#objetivo > h2{
+div.intro-simulación > p{
+    margin-right: 50%;
+}
+div#simulación{
+    text-align: center;
+}
+div#simulcaión img{
+    height: 50vh;
+    display: flex;
+}
+/* -----------------MONTAJE------------------- */
+div.intro-montaje{
+    background-color: rgb(39, 60, 92);
     color: white;
+}
+div.intro-montaje > p{
+    margin-right: 50%;
 }
