@@ -40,16 +40,16 @@ div.titulo > h2{
 div.navbar > a{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    padding: 8px;
+    padding: 20px;
     text-decoration: none;
     color: black;
-    margin-bottom: 5vh;
-    align-self: center;
+    /* margin-bottom: 5vh; */
 }
 .navbar{
-    padding-top: 10vh;
-    height: 100vh;
+    padding-top: 20vh;
+    height: 90vh;
     width: 13vw;
     background-color: rgb(225, 241, 255);
     position: -webkit-sticky;
@@ -187,14 +187,26 @@ div#intro-montaje > p{
     margin-right: 50%;
 }
 /* ----------------IMAGENES--------------------*/
+img#fotoSimulacion{
+    height: 55vw;
+}
 img#fotoMontaje{
-    display: flex;
-    flex-wrap: wrap;
-    height: 30vh;
+    height: 15vw;
     margin: 2vh;
     margin-left: 8vh;
+    transition:transform 0.25s ease;
+    border: black 2px solid;
+}
+img#fotoMontaje:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
 }
 /* ----------------FIRMA----------------------*/
-div#firma > p{
-    color: rgb(34, 34, 161);
+div#firma{
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 60, 92);
+    border-top: solid rgb(25, 37, 56) 6.5px;
+}
+div#firma > h4{
+    padding-bottom: 2vh;
 }
