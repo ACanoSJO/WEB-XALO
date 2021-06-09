@@ -49,7 +49,7 @@ div.navbar > a{
 }
 .navbar{
     padding-top: 20vh;
-    height: 90vh;
+    height: 80vh;
     width: 13vw;
     background-color: rgb(225, 241, 255);
     position: -webkit-sticky;
