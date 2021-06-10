@@ -57,9 +57,9 @@ div.navbar > a{
 	top: 0;
     opacity: 0.9;
 }
-a:hover{
+a.linkNavbar:hover{
     background-color: coral;
-    color: white;
+    /* color: white; */
 }
 
 /* -------------------CONTENIDO ---------------- */
@@ -190,14 +190,17 @@ div#intro-montaje > p{
 img#fotoSimulacion{
     height: 55vw;
 }
-img#fotoMontaje{
+img.fotoMontaje{
     height: 15vw;
     margin: 2vh;
     margin-left: 8vh;
     transition:transform 0.25s ease;
     border: black 2px solid;
 }
-img#fotoMontaje:hover {
+img#fotoWifi{
+    height: 10vw;
+}
+img.fotoMontaje:hover {
     -webkit-transform:scale(1.5); /* or some other value */
     transform:scale(1.5);
 }

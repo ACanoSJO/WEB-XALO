@@ -17,12 +17,12 @@
     </div>
     <div class="contenido">
         <div class="navbar">
-            <a href="#portada2">Portada</a>
-            <a href="#index">Index</a>
-            <a href="#objetivo">Objetivo</a>
-            <a href="#tablas">Presupuesto</a>
-            <a href="#introSimulacion">Simulación</a>
-            <a href="#intro-montaje">Montaje</a>
+            <a class="linkNavbar" href="#portada2">Portada</a>
+            <a class="linkNavbar" href="#index">Index</a>
+            <a class="linkNavbar" href="#objetivo">Objetivo</a>
+            <a class="linkNavbar" href="#tablas">Presupuesto</a>
+            <a class="linkNavbar" href="#introSimulacion">Simulación</a>
+            <a class="linkNavbar" href="#intro-montaje">Montaje</a>
         </div>
         <div class="texto">
             <div id = "portada">
@@ -186,7 +186,8 @@
                 <p>En este apartado mostraremos unas capturas de una sencilla recreación de TODA la red de la clase. Hemos remplazado las rosetas por ordenadores ya que no se encuenrtra en paket tracer, les hemos puesto una IP a cada uno. Cada recuadro del simulador representa una subred, las subredes vienen de la siquiente red : 192.168.x.x. En el caso de la que se encuentra arriba a la derecha (la nuestra) es la subred 192.168.5.x. No podemos poner pruebas de carpetas compartidas (en este simulador no se puede)</p>
             </div>
             <div id = "simulación">
-                <img id="fotoSimulacion" src="img/simulacion1.jpg" alt="kk">
+                <h3>Click en la imagen para descargar</h3>
+                <a href="https://drive.google.com/file/d/1uFGj3MQPHDL7EgRr3U2jtBVSVpBR4gTT/view?usp=sharing" target="_blank"><img id="fotoSimulacion" src="img/simulacion1.jpg" alt=""></a>
             </div>
             <div id = "intro-montaje">
                 <h2>Diario de montaje</h2>
@@ -196,30 +197,34 @@
             <div id = "montaje">
                 <h3>04/05/2021</h3>
                 <p>Hemos comenzado el proyecto con una explicación del trabajo y colocado las canaletas, hemos pasado el cable UTP he identificado los extremos  y hemos preparado los sitios donde irán las rosetas (una cada 50 cm).</p>
-                <img src="img/dia1.png" id="fotoMontaje">
+                <img src="img/dia1.png" class="fotoMontaje">
                 <h3>05/05/2021</h3>
                 <p>Hoy hemos crimpar los extremos de cable hacia el conector hembra en los cinco cables que preparamos en la anterior sesión que nos corresponden. Una vez hemos colocado los puertos en su sitio, hemos tapado las canaletas para que no se vean los cables. De esa forma nos organizamos mejor y también es visualmente más cómodo de ver. Y por ultimo, tambien hemos colocado los cables y el enlace del otro grupo en el patch panel</p>
-                <img src="img/dia2.png" id="fotoMontaje">
+                <img src="img/dia2.png" class="fotoMontaje">
                 <h3>06/05/2021</h3>
                 <p>Hoy hemos comprobado los conectores de nuestra parte de la instalación y hemos descubierto que había fallos de funcionamiento en los cables 1, 2, 3, 5. Hemos logrado reparar el cable 2.</p>
-                <img src="img/dia3.png" id="fotoMontaje">
+                <img src="img/dia3.png" class="fotoMontaje">
                 <h3>10/05/2021</h3>
                 <p>Hoy hemos retocado en detalle la hoja de cálculo en detalle.</p>
-                <img src="img/dia4.png" id="fotoMontaje">
+                <img src="img/dia4.png" class="fotoMontaje">
                 <h3>13/05/2021</h3>
                 <p>Hoy hemos reparado los conectores que nos faltaban por reparar el último día,  personalmente este paso nos ha parecido el más complejo del montaje ya que hay que ser muy delicado</p>
-                <img src="img/dia5.png" id="fotoMontaje">
+                <img src="img/dia5.png" class="fotoMontaje">
                 <h3>20/05/2021</h3>
                 <p>Finalmente terminamos el último cable. Seguidamente, conectamos un switch e intentamos hacer un ping entre dos ordenadores conectados a la red. También crearemos una máquina virtual (windows7) para acceder al switch y cambiar manualmente sus ips.</p>
-                <img src="img/dia6.1.png" id="fotoMontaje">
-                <img src="img/dia6.2.png" id="fotoMontaje">
+                <img src="img/dia6.1.png" class="fotoMontaje">
+                <img src="img/dia6.2.png" class="fotoMontaje">
                 <h3>27/05/2021</h3>
                 <p>Estamos comprobando que las conexiones funcionan correctamente haciendo pings. Hemos usado las IPs que nos proporciona el documento de enunciado (En nuestro caso es 192.168.5.X). Tambien hemos intentado acceder a la impresora pero por ahora no han habido avances.</p>
-                <img src="img/dia7.1.png" id="fotoMontaje">
-                <img src="img/dia7.2.png" id="fotoMontaje">
+                <img src="img/dia7.1.png" class="fotoMontaje">
+                <img src="img/dia7.2.png" class="fotoMontaje">
                 <h3>03/06/2021</h3>
                 <p>Vamos a intentar conectar una impresora a la red que está conectada a un portátil de la red, entonces desde uno ajeno a la impresora conectado a la red y que pueda imprimir. Por último también hemos conseguido compartir una carpeta con un documento txt dentro.</p>
-                <img src="img/dia8.png" id="fotoMontaje">
+                <img src="img/dia8.png" class="fotoMontaje">
+                <h3>10/06/2021</h3>
+                <p>En el último día hemos conseguido configurar la impresora para que imprima tanto por red como por wifi. Hemos tenido que cambiar la ip de nuestros ordenadores para que sea de la misma subred que la impresora ( la que pusimos en el primer equipo para probar fue: 169.254.176.251, la de la impresora era: 169.254.176.253) para poder imprimir en ellas y acceder a su configuración.</p>
+                <img src="img/dia9.1.png" class="fotoMontaje">
+                <img src="img/dia9.2.png" class="fotoMontaje" id="fotoWifi">
             </div>
             <div id = "firma">
                 <h4>Gracias por dedicarle tiepo a evaluar nuestro trabajo</h4>
